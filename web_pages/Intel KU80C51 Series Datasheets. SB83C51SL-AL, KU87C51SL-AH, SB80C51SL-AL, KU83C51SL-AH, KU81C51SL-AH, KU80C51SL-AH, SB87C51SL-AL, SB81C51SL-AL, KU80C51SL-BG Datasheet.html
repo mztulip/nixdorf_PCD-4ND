@@ -1,0 +1,221 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML>
+<head>
+<link href="http://www.chipdocs.com/common/wwtec.css" rel="stylesheet" type="text/css" />
+<META name="description" content="KU80C51 series- Lov voltage keyboard controller. 16K OTP ROM. Vcc = 3.3V in 100-pin SQFP package. Operational temperature range from 0<sup>&deg;</sup>C to 70<sup>&deg;</sup>C. from Intel datasheet">
+<META name="keywords" content="SB83C51SL-AL, KU87C51SL-AH, SB80C51SL-AL, KU83C51SL-AH, KU81C51SL-AH, KU80C51SL-AH, SB87C51SL-AL, SB81C51SL-AL, KU80C51SL-BG, datasheet, datasheets, pdf, data sheet, data sheets">
+<TITLE>Intel KU80C51 Series Datasheets. SB83C51SL-AL, KU87C51SL-AH, SB80C51SL-AL, KU83C51SL-AH, KU81C51SL-AH, KU80C51SL-AH, SB87C51SL-AL, SB81C51SL-AL, KU80C51SL-BG Datasheet.</TITLE>
+
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/20993445/chipdocs_120x600_left', [120, 600], 'div-gpt-ad-1489058466053-0').addService(googletag.pubads());
+    googletag.defineSlot('/20993445/chipdocs_468x60_underhead', [468, 60], 'div-gpt-ad-1489058466053-1').addService(googletag.pubads());
+    googletag.defineSlot('/20993445/chipdocs_468x60_header', [468, 60], 'div-gpt-ad-1489058466053-2').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+
+</head>
+<body text="#000000" style="background-image: url(http://www.chipdocs.com/common/img/bg.gif); background-repeat:no-repeat;" link="#639ECC" vlink="#639ECC" alink="#639ECC" bgcolor="#FFFFFF">
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+ <tr>
+  <td width="100%" height="97" colspan="3">
+   <table border="0" width="100%" height="97" cellpadding="0" cellspacing="0">
+    <tr>
+     <td width="234" height="97" rowspan="3"><a href="../../../?okwd=KU80C51&partid=208685"><img src="http://www.chipdocs.com/common/img/chipdocs_logo.gif" border="0" width="234" height="97" hspace="0" vspace="0" alt="ChipDocs - Datasheet Source for Semiconductor and Electronic Circuit Components"></a></td>
+     <td width="100%" height="77" rowspan="2"></td>
+     <td width="482" height="74" colspan="2" align="right">
+      <table width="482" border="0" cellpadding="0" cellspacing="0">
+       <tr>
+        <td width="5" height="74" rowspan="3"><img src="http://www.chipdocs.com/common/img/adv_4.gif" border="0" width="5" height="74" hspace="0" vspace="0" alt=""></td>
+        <td width="468" height="5"><img src="http://www.chipdocs.com/common/img/468x5b.gif" border="0" width="468" height="5" hspace="0" vspace="0" alt=""></td>
+        <td width="9" height="74" rowspan="3"><img src="http://www.chipdocs.com/common/img/adv_3.gif" border="0" width="9" height="74" hspace="0" vspace="0" alt=""></td>
+       </tr>
+       <tr>
+        <td width="468" height="60">
+         <!-- /20993445/chipdocs_468x60_header -->
+         <div id='div-gpt-ad-1489058466053-2' style='height:60px; width:468px;'>
+          <script>
+           googletag.cmd.push(function() {
+           googletag.display('div-gpt-ad-1489058466053-2'); });
+           </script>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td width="468" height="9"><img src="http://www.chipdocs.com/common/img/adv_5.gif" border="0" width="468" height="9" hspace="0" vspace="0" alt=""></td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+            <tr>
+     <td width="324" height="3"><img src="http://www.chipdocs.com/common/img/1x1t.gif" width="324" height="3" border="0" hspace="0" vspace="0" alt=""></td>
+     <td width="158" height="23" rowspan="2"><img src="http://www.chipdocs.com/common/img/adv_6.gif" width="158" height="23" border="0" hspace="0" vspace="0" alt=""></td>
+    </tr>
+    <tr>
+     <td width="366" height="20" colspan="2" align="right">
+      <table width="366" height="20" border="0" cellpadding="0" cellspacing="0" align="right">
+       <tr>
+        <td width="36" height="20"><img src="http://www.chipdocs.com/common/img/1x1t.gif" width="36" height="20" border="0" hspace="0" vspace="0" alt=""></td>
+        <td width="330" height="20"><img src="http://www.chipdocs.com/common/img/blank_title.gif" width="330" height="20" border="0" hspace="0" vspace="0" alt=""></td>
+        <td align="right"><div style="width:61px;overflow:hidden"><script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script><g:plusone size="medium" href="http://www.chipdocs.com"></g:plusone></div></td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr>
+  <td width="141" valign="top">
+   <table width="141" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+     <td width="122" bgcolor="#FFFFFF" valign="top">
+      <ul id="navt">
+       <li><a href="../../../index.html?okwd=KU80C51&partid=208685" title="ChipDocs - Datasheet Source for Semiconductor and Electronic Circuit Components" class="home"></a></li>       <li><span class="search"></span></li>      </ul>
+      <table width="122" border="0" cellpadding="0" cellspacing="0">
+       <tr>
+        <td width="122">
+         <table width="122" cellspacing="0" cellpadding="0" border="0">
+          <form action="../../../pnsearch/search.html?okwd=KU80C51&partid=208685" method="post">
+          <input name="rstart" type="HIDDEN" value="0">
+          <input name="lg" type="HIDDEN" value="">
+           <tr>
+            <td width="19" background="http://www.chipdocs.com/common/img/fbg.gif"><img src="http://www.chipdocs.com/common/img/menul.gif" width="19" height="41" hspace="0" vspace="0" border="0" alt=""></td>
+            <td width="101" valign="center">
+             <table width="101" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+               <td align="left" valign="center"><input name="keyword" type="text" size="7" value="KU80C51"></td>
+               <td align="right" valign="center"><input type="submit" value="&gt;&gt;"></td>
+              </tr>
+             </table>
+            </td>
+           </tr>
+          </form>
+         </table>
+        </td>
+       </tr>
+      </table>
+      <ul id="navb">
+       <li><a href="../../../pndecoder/pndecoder.html?okwd=KU80C51&partid=208685" title="Part Number Decoder" class="pndecoder"></a></li>       <li><a href="../../../logos/logotypes.html?okwd=KU80C51&partid=208685" title="Integrated Circuit Logo Finder" class="logo"></a></li>       <li><a href="../../../manufacturers/list.html?okwd=KU80C51&partid=208685" title="Semiconductor Manufacturers" class="mnf"></a></li>       <li><a href="../../../catalog/tree.html?okwd=KU80C51&partid=208685" title="Electronic Components Catalogue" class="catalog"></a></li>       <li><a href="../../../packages/packages_list.html?okwd=KU80C51&partid=208685" title="Electronic Circuits Packages" class="packages"></a></li>       <li><a href="http://chipdocs.tradepub.com" title="Free Magazines" class="magazines"></a></li>
+       <li><a href="../../../adv/advertise.html?okwd=KU80C51&partid=208685" title="Advertise with ChipDocs" class="adv"></a></li>       <li><a href="../../../contact.html?okwd=KU80C51&partid=208685" title="ChipDocs Worldwide Contact Information" class="contact"></a></li>      </ul>
+      <table width="122" border="0" cellpadding="0" cellspacing="0">
+       <tr>
+        <td width="122" height="93" bgcolor="#FFFFFF"><img src="http://www.chipdocs.com/common/img/illustrations/1.gif" border="0" width="122" height="93" hspace="0" vspace="0" alt=""></td>
+       </tr>
+       <tr>
+        <td width="122" background="http://www.chipdocs.com/common/img/ffbg.gif">
+         <table width="122" height="62" border="0" cellpadding="1" cellspacing="0">
+          <tr>
+           <td width="120" height="60" bgcolor="#639ECC" align="center" style="border:1px solid black;">
+               <font color="#FFFFFF" size="-1"><B>
+                More than<br>4&nbsp;307&nbsp;195&nbsp;<br>components listed               </B></font>
+           </td>
+          </tr>       <tr>
+        <td bgcolor="#639ECC">
+         <!-- /20993445/chipdocs_120x600_left -->
+         <div id='div-gpt-ad-1489058466053-0' style='height:600px; width:120px;'>
+          <script>
+           googletag.cmd.push(function() {
+           googletag.display('div-gpt-ad-1489058466053-0'); });
+          </script>
+         </div>
+        </td>
+       </tr>         </table>
+        </td>
+       </tr>
+      </table>
+     </td>    
+     <td width="7" bgcolor="#FFFFFF" valign="top"><img src="http://www.chipdocs.com/common/img/1x1t.gif" width="7" height="1" border="0" hspace="0" vspace="0" alt=""></td>
+     <td width="2" bgcolor="#FFFFFF" valign="top"><img src="http://www.chipdocs.com/common/img/vertical.gif" width="2" height="346" border="0" hspace="0" vspace="0" alt=""></td>
+     <td width="10" bgcolor="#FFFFFF" valign="top"><img src="http://www.chipdocs.com/common/img/1x1t.gif" width="10" height="1" border="0" hspace="0" vspace="0" alt=""></td>
+    </tr>
+   </table>
+  </td>
+  <td width="100%" valign="top">
+   <table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+     <td width="100%">
+      <img src="http://www.chipdocs.com/common/img/1x1t.gif" border="0" width="468" height="10" hspace="0" vspace="0" alt="">
+     </td>
+    </tr>
+    <tr>
+     <td width="100%">
+ 
+<center>
+<!-- /20993445/chipdocs_468x60_underhead -->
+<div id='div-gpt-ad-1489058466053-1' style='height:60px; width:468px;'>
+ <script>
+  googletag.cmd.push(function() {
+  googletag.display('div-gpt-ad-1489058466053-1'); });
+ </script>
+</div>
+</center>    
+<p>KU80C51 series datasheets. Manufacturer: <a href=../../../manufacturers/INTEL.html?okwd=KU80C51&partid=208685>Intel</a>.</p><table border=0 cellspacing=0 cellpadding=5>
+ <tr>
+  <td valign=top>
+   <table border=1 cellpadding=3 cellspacing=0>
+    <tr><td valign=top>KU80C51SL-BG</td><td>Keyboard controller in 100-pin QFP package. Operational temperature range from -40<sup>&deg;</sup>C to 85<sup>&deg;</sup>C.</td><td><a href="../../../pnsearch/download.html?partid=162923">Datasheet</a><sup>*</sup>)</td></tr>
+    <tr><td valign=top>KU80C51SL-AH</td><td>Keyboard controller. CPU with RAM and I/O, Vcc = 5V in 100-pin PQFP package. Operational temperature range from 0<sup>&deg;</sup>C to 70<sup>&deg;</sup>C.</td><td><a href="../../../pnsearch/download.html?partid=208692">Datasheet</a><sup>*</sup>)</td></tr>
+    <tr><td valign=top>KU81C51SL-AH</td><td>Keyboard controller.16K ROM preprogrammed with systemSoft keyboard controller and scanner firmware. Vcc = 5V in 100-pin PQFP package. Operational temperature range from 0<sup>&deg;</sup>C to 70<sup>&deg;</sup>C.</td><td><a href="../../../pnsearch/download.html?partid=208691">Datasheet</a><sup>*</sup>)</td></tr>
+    <tr><td valign=top>KU83C51SL-AH</td><td>Keyboard controller.16K factory programmed ROM. Vcc = 5V in 100-pin PQFP package. Operational temperature range from 0<sup>&deg;</sup>C to 70<sup>&deg;</sup>C.</td><td><a href="../../../pnsearch/download.html?partid=208690">Datasheet</a><sup>*</sup>)</td></tr>
+    <tr><td valign=top>KU87C51SL-AH</td><td>Keyboard controller.16K OTP ROM. Vcc = 5V in 100-pin PQFP package. Operational temperature range from 0<sup>&deg;</sup>C to 70<sup>&deg;</sup>C.</td><td><a href="../../../pnsearch/download.html?partid=208689">Datasheet</a><sup>*</sup>)</td></tr>
+    <tr><td valign=top>SB80C51SL-AL</td><td>Lov voltage keyboard controller. CPU with RAM and I/O, Vcc = 3.3V in 100-pin SQFP package. Operational temperature range from 0<sup>&deg;</sup>C to 70<sup>&deg;</sup>C.</td><td><a href="../../../pnsearch/download.html?partid=208688">Datasheet</a><sup>*</sup>)</td></tr>
+    <tr><td valign=top>SB81C51SL-AL</td><td>Lov voltage keyboard controller. 16K ROM preprogrammed with systemSoft keyboard controller and scanner firmware. Vcc = 3.3V in 100-pin SQFP package. Operational temperature range from 0<sup>&deg;</sup>C to 70<sup>&deg;</sup>C.</td><td><a href="../../../pnsearch/download.html?partid=208687">Datasheet</a><sup>*</sup>)</td></tr>
+    <tr><td valign=top>SB83C51SL-AL</td><td>Lov voltage keyboard controller. 16K factory programmed ROM. Vcc = 3.3V in 100-pin SQFP package. Operational temperature range from 0<sup>&deg;</sup>C to 70<sup>&deg;</sup>C.</td><td><a href="../../../pnsearch/download.html?partid=208686">Datasheet</a><sup>*</sup>)</td></tr>
+    <tr><td valign=top>SB87C51SL-AL</td><td>Lov voltage keyboard controller. 16K OTP ROM. Vcc = 3.3V in 100-pin SQFP package. Operational temperature range from 0<sup>&deg;</sup>C to 70<sup>&deg;</sup>C.</td><td><a href="../../../pnsearch/download.html?partid=208685">Datasheet</a><sup>*</sup>)</td></tr>
+
+</table>
+  </td>
+  <td valign=top><a href="../../../pnsearch/download.html?okwd=KU80C51&partid=208685"><img src="../../../pndecoder/datasheets/INTEL/img/000009.gif" border="0" width="200" height="300" hspace="0" vspace="0" alt="Click here to download KU80C51 Datasheet"><br><font size="-1">Click here to download  Datasheet</font></a><sup>*)</sup>  </td>
+ </tr>
+</table><p><sup>*</sup>) Datasheets downloading from ChipDocs is only for our members (paid service). <a href="../../../pnsearch/terms.html?okwd=KU80C51&partid=208685">REGISTER NOW</a> for your membership.</p>     </td>
+    </tr>
+   </table>
+  </td>
+  <td width="149" valign="top">
+   <table width="149" border="0" cellpadding="0" cellspacing="0">
+    <tr>     <td width="10" height="629" rowspan="5"><img src="http://www.chipdocs.com/common/img/1x1t.gif" border="0" width="10" height="1" hspace="0" vspace="0" alt=""></td>
+     <td width="135" height="600" bgcolor="#639ECC" align="center"><a href="../../../adv/click.html?banner_id=10"><img src="http://www.chipdocs.com/adv/img/banners/tradepub120x600eng.gif" width="120" height="600" border="0" hspace="0" vspace="0" alt="Free Electronics Engineering Subscription"></a></td>
+     <td width="4" height="620" rowspan="4" background="http://www.chipdocs.com/common/img/adv_2.gif"><img src="http://www.chipdocs.com/common/img/adv_2.gif" border="0" width="4" height="620" hspace="0" vspace="0" alt=""></td>    </tr>
+    <tr>
+     <td width="135" height="20" bgcolor="#639ECC"><img src="http://www.chipdocs.com/common/img/1x1t.gif" border="0" width="135" height="20" hspace="0" vspace="0" alt=""></td>
+    </tr>
+    <tr>
+     <td width="135" bgcolor="#639ECC" align="center">      <div align="center" id="wwtec">
+       <a href="http://www.wwteq.com/" title="Win Win Circuit LTD."><img src="/adv/img/banners/win-win-tech-logo.gif" width="123" height="44" alt="Win Win Circuit - PCB,PCBA,Touch Screen,LED Lighting" border="0"></a><br>
+       <b>Win Win Circuit LTD.</b>
+       <a href="http://www.wwteq.com/">PCB, PCBA, LCD Module</a><br>
+       <a href="http://www.wwteq.com/" style="font-size:12px; font-weight:bold;">www.wwteq.com</a>
+      </div>
+           </td>
+    </tr>
+    <tr><td width="135" height="20" bgcolor="#639ECC"><img src="http://www.chipdocs.com/common/img/1x1t.gif" border="0" width="135" height="20" hspace="0" vspace="0" alt=""></td></tr>
+    <tr>
+     <td width="139" height="9" colspan="2"><img src="http://www.chipdocs.com/common/img/adv_1.gif" border="0" width="139" height="9" hspace="0" vspace="0" alt=""></td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+ <tr>
+  <td width="100%" height="24" colspan="3" align="right"><img src="http://www.chipdocs.com/common/img/copyright-2024.gif" border="0" width="468" height="24" hspace="0" vspace="0" alt="COPYRIGHT 1997-2024 ChipDocs  ALL RIGHT RESERVED"></td>
+ </tr>
+</table><script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-11837762-1");
+pageTracker._trackPageview();
+} catch(err) {}</script></body>
+</HTML>
